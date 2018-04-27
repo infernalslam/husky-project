@@ -4,9 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "precommit": "husky",
-    "prepush": "jest"
+    "test": "jest"
   },
   "author": "",
   "license": "ISC",
@@ -18,8 +16,8 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm run test",
-      "pre-push": "jest"
+      "pre-commit": "npm test",
+      "pre-push": "npm test"
     }
   }
 }
