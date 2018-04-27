@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "pre-commit": "jest ./index.js",
-    "pre-push": "jest"
+    "precommit": "jest",
+    "prepush": "jest"
   },
   "author": "",
   "license": "ISC",
