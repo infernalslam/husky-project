@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "precommit": "jest",
+    "precommit": "husky",
     "prepush": "jest"
   },
   "author": "",
